@@ -17,5 +17,5 @@ password = " "
 
 # Loop to create password of specified length
 for a in range(length):
-    password += random.choice(allchar)
+    password += random.choice(allchar) # password = password + random character from allchar
 print("Your generated password is: ", password)
